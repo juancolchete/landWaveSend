@@ -76,7 +76,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-center lg:justify-end">
-                <div className="relative w-[280px] h-[560px] sm:w-[320px] sm:h-[640px] rounded-xl overflow-hidden border-8 border-foreground/10 shadow-xl">
+                <div className="relative rounded-xl overflow-hidden border-8 border-foreground/10 shadow-xl">
                   <Image
                     src="https://github.com/dannilobr/WS/blob/main/wave%20send%20app.jpg?raw=true"
                     alt="WaveSend App Interface"
