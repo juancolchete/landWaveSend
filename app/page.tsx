@@ -7,6 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import TransactionFlowChart from "@/components/transaction-flow-chart"
 import RoadmapTimeline from "@/components/roadmap-timeline"
 import SystemArchitectureDiagram from "@/components/system-architecture-diagram"
+import DeploymentGuide from "@/components/deployment-guide"
 
 export default function Home() {
   return (
@@ -39,6 +40,12 @@ export default function Home() {
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
                 Roadmap
+              </Link>
+              <Link
+                href="#deploy"
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              >
+                Deploy
               </Link>
               <Button size="sm">Get Started</Button>
             </nav>
@@ -347,6 +354,23 @@ export default function Home() {
             </div>
             <div className="mx-auto max-w-5xl py-12">
               <RoadmapTimeline />
+            </div>
+          </div>
+        </section>
+
+        {/* Deployment Section */}
+        <section id="deploy" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Deploy WaveSend</h2>
+                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Follow these steps to deploy your own instance of WaveSend
+                </p>
+              </div>
+            </div>
+            <div className="mx-auto max-w-5xl py-12">
+              <DeploymentGuide />
             </div>
           </div>
         </section>
