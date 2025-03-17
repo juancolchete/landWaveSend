@@ -70,9 +70,9 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button className="gap-1">
-                    Get Started <ArrowRight className="h-4 w-4" />
+                    <Link href="https://wallet.wavesend.xyz/">Get Started</Link> <ArrowRight className="h-4 w-4" />
                   </Button>
-                  <Button variant="outline">Learn More</Button>
+                  {/* <Button variant="outline">Learn More</Button> */}
                 </div>
               </div>
               <div className="flex justify-center lg:justify-end">
