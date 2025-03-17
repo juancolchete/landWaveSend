@@ -38,6 +38,8 @@ export default function RoadmapTimeline() {
               <ul className="ml-6 list-disc text-sm text-muted-foreground space-y-1">
                 <li>Expansion to additional blockchain networks</li>
                 <li>Support for NFTs</li>
+                <li>Expasion to Lightning Network</li>
+                <li>Native bridge with Scroll Network</li>
               </ul>
             </CardContent>
           </Card>
@@ -54,7 +56,8 @@ export default function RoadmapTimeline() {
                 <span className="ml-auto text-sm text-muted-foreground">Future</span>
               </div>
               <ul className="ml-6 list-disc text-sm text-muted-foreground space-y-1">
-                <li>Partnerships with humanitarian organizations for implementation in crisis areas</li>
+                <li>Partnership with companies to pay with QR CODE</li>
+                <li>Non Custodial wallet abstraction with phone number with Fireblocks</li>
               </ul>
             </CardContent>
           </Card>
@@ -72,9 +75,9 @@ export default function RoadmapTimeline() {
               </div>
               <ul className="ml-6 list-disc text-sm text-muted-foreground space-y-1">
                 <li>Implementation of LoRa technology for long-range communication</li>
-                <li>Development of LoRa-compatible hardware for areas without cellular coverage</li>
+                <li>Development of LoRa-compatible hardware for areas without phone coverage</li>
                 <li>Hybrid SMS/LoRa communication protocols for maximum resilience</li>
-                <li>Field testing in remote regions with limited infrastructure</li>
+                <li>Field testing in remote regions with limited infrastructure</li>
               </ul>
             </CardContent>
           </Card>
