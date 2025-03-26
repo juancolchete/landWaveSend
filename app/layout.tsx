@@ -13,6 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/wavesendlogo.png" sizes="any" />
       <body>{children}</body>
     </html>
   )
