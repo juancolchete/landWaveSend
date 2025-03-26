@@ -70,7 +70,8 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button className="gap-1">
-                    <Link href="https://wallet.wavesend.xyz/">Get Started</Link> <ArrowRight className="h-4 w-4" />
+                    <Link href="https://explorer.gitcoin.co/#/round/42161/877/1">Get Started</Link> <ArrowRight className="h-4 w-4" />
+                    {/* <Link href="https://wallet.wavesend.xyz/">Get Started</Link> <ArrowRight className="h-4 w-4" /> */}
                   </Button>
                   {/* <Button variant="outline">Learn More</Button> */}
                 </div>
@@ -417,7 +418,7 @@ export default function Home() {
             >
               GitHub
             </Link>
-            <Link href="#" className="text-sm font-medium underline underline-offset-4">
+            <Link href="https://x.com/_wavesend" className="text-sm font-medium underline underline-offset-4">
               Contact
             </Link>
           </div>
